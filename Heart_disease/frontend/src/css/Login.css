@@ -1,0 +1,71 @@
+.login-container {
+  background-image: url('../images/my.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 0;
+  padding: 50px; 
+}
+
+.login-form {
+  width: 400px; 
+  max-width: 100%; 
+  padding: 40px; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.login-input {
+  width: calc(100% - 20px); 
+  padding: 15px; 
+  margin-bottom: 20px; 
+  border: 1px solid #ccc;
+  border-radius: 10px; 
+}
+
+.login-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 30px; 
+  border-radius: 10px; 
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 20px; 
+}
+
+.login-button:hover {
+  background-color: #32ae4d;
+}
+
+.login-error {
+  color: rgb(4, 251, 12);
+  margin-top: 20px; 
+  tab-size: bold;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.sign-up-button {
+  background-color:  #007bff; 
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  margin-left: 100px;
+  padding: 12px 25px; 
+  border-radius: 10px; 
+  cursor: pointer;
+  display: inline-block; 
+  margin-top: 20px; 
+}
+
+.sign-up-button:hover {
+  background-color: #218838; 
+}

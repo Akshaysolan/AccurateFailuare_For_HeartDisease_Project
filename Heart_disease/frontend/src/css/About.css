@@ -1,0 +1,59 @@
+.about-us-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+  
+    margin-bottom: 80px;
+    background-color: azure;
+  }
+  
+  .heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .member-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .member-role {
+    font-size: 16px;
+  }
+  
+  .contact-info {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+  
+  .link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

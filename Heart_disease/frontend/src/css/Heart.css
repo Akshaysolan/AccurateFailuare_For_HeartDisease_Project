@@ -1,0 +1,53 @@
+.heart-disease-page {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    
+    background-color: azure;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .list-item {
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    background-color: #ffd700; 
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image {
+    
+    width:40%;
+  }
+  .image1 {
+    
+    width:30%;
+  }
+  
+  .list {
+    
+    padding-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+  }
+  
+  .section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
